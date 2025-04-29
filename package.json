@@ -1,0 +1,13 @@
+{
+  "name": "jwt-signer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "jose": "^5.2.0"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/sign.js"
+  }
+}
